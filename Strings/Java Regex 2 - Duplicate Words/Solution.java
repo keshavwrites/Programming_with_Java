@@ -21,7 +21,7 @@ m.group() is the entire match <br/>
 m.group(i) is the ith match. So m.group(1) is the 1st match (which is enclosed in the 1st set of parentheses)
 The ?: is added to make it a "non-capturing group" (meaning you can't do .group() to get the group), for slightly faster performance.
 10/20/18 - Looks like the problem statement changed a bit, and digits should no longer be in the regular expression. 
-The upgrade regexp is: String regex = "\\b([a-z]|[A-Z]+)(\\s+\\1\\b)+";
+The upgrade regexp is: String regex = "\\b([a-z]|[A-Z]+)(\\s+\\1\\b)+";;
 */
 
 public class DuplicateWords {
