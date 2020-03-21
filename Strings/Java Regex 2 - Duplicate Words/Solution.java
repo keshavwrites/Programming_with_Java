@@ -20,7 +20,8 @@ The line of code above replaces the entire match with the first group in the mat
 m.group() is the entire match <br/>
 m.group(i) is the ith match. So m.group(1) is the 1st match (which is enclosed in the 1st set of parentheses)
 The ?: is added to make it a "non-capturing group" (meaning you can't do .group() to get the group), for slightly faster performance.
-10/20/18 - Looks like the problem statement changed a bit, and digits should no longer be in the regular expression. User @4godspeed has an updated solution: https://www.hackerrank.com/challenges/duplicate-word/forum/comments/503715 that may work.
+10/20/18 - Looks like the problem statement changed a bit, and digits should no longer be in the regular expression. 
+The upgrade regexp is: String regex = "\\b([a-z]|[A-Z]+)(\\s+\\1\\b)+";
 */
 
 public class DuplicateWords {
@@ -28,6 +29,7 @@ public class DuplicateWords {
     public static void main(String[] args) {
 
         String regex = "\\b(\\w+)(?:\\W+\\1\\b)+";
+        //upgrade String regex = "\\b([a-z]|[A-Z]+)(\\s+\\1\\b)+";
         Pattern p = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
 
         Scanner in = new Scanner(System.in);
