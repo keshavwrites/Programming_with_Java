@@ -15,13 +15,13 @@ public class Solution {
     }
     
     //Second Approach
-    static boolean isPal(String str) {
+    static boolean isPal2(String str) {
         return new StringBuilder(str).reverse().toString()
                 .compareTo(str) == 0;
     }
     
     //Third Approach
-    static boolean isPal(String str) {
+    static boolean isPal3(String str) {
         int i = 0, n = str.length();
         for (; i < n / 2; ++i) {
             if (str.charAt(i) != str.charAt(n - i - 1))
@@ -33,7 +33,9 @@ public class Solution {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         String str = in.next();
-        String ans = isPal(str, 0, str.length() - 1) ? "Yes" : "No";
+        String ans = isPal1(str, 0, str.length() - 1) ? "Yes" : "No";
+        //String ans = isPal2(str, 0, str.length() - 1) ? "Yes" : "No";
+        //String ans = isPal3(str, 0, str.length() - 1) ? "Yes" : "No";
         System.out.print(ans);
     }
 }
