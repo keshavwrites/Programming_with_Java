@@ -69,3 +69,4 @@
 | Algorithms |  [Big Sorting](https://www.hackerrank.com/challenges/big-sorting/problem?h_r=internal-search) | 20 | [Solution.java](https://github.com/andy489/Programming_with_Java/blob/master/Algorithms/Sorting/Big%20Sorting.java)|
 Algorithms | [Insertion Sort - Part 2](https://www.hackerrank.com/challenges/insertionsort2/problem) | 30 | [Solution.java](https://github.com/andy489/Programming_with_Java/blob/master/Algorithms/Sorting/Insertion%20Sort%20-%20Part%202.java)
 Algorithms | [Missing Numbers](https://www.hackerrank.com/challenges/missing-numbers/problem) | 45 | [Solution.java](https://github.com/andy489/Programming_with_Java/blob/master/Algorithms/Search/Missing%20Numbers.java)
+Algorithms | [Making Anagrams](https://www.hackerrank.com/challenges/making-anagrams/problem) | 30 | [Solution.java](https://github.com/andy489/Programming_with_Java/blob/master/Algorithms/Strings/Making%20Anagrams.java)
