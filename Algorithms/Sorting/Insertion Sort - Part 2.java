@@ -1,7 +1,5 @@
 // github.com/andy489
 
-// Slow O(n*n)
-
 import java.util.Scanner;
 
 public class Solution {
