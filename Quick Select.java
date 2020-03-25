@@ -66,6 +66,7 @@ public class Main {
                 continue;
             }
             int ans=kthSmallestIterative(arr,0,n-1,k-1);
+            //int ans=kthSmallestRecursive(arr,0,n-1,k-1);
             System.out.println(k+"-th smallest element is "+ans);
             line=in.nextLine();
         }
