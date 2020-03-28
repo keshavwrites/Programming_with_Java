@@ -71,3 +71,5 @@ Algorithms > Sorting | [Insertion Sort - Part 2](https://www.hackerrank.com/chal
 Algorithms > Sorting | [Find the Median](https://www.hackerrank.com/challenges/find-the-median/problem) | 35 | [Solution.java](https://github.com/andy489/Programming_with_Java/blob/master/Algorithms/Sorting/Find%20the%20Median.java)
 Algorithms > Search | [Missing Numbers](https://www.hackerrank.com/challenges/missing-numbers/problem) | 45 | [Solution.java](https://github.com/andy489/Programming_with_Java/blob/master/Algorithms/Search/Missing%20Numbers.java)
 Algorithms > Strings | [Making Anagrams](https://www.hackerrank.com/challenges/making-anagrams/problem) | 30 | [Solution.java](https://github.com/andy489/Programming_with_Java/blob/master/Algorithms/Strings/Making%20Anagrams.java)
+
+Interview Preparation Kit>Arrays|[New Year Chaos](https://www.hackerrank.com/challenges/new-year-chaos/problem?h_l=interview&playlist_slugs%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D=arrays)|40|[Solution.java](https://github.com/andy489/Programming_with_Java/blob/master/Interview%20Preparation%20Kit/Arrays/New%20Year%20Chaos.java)
